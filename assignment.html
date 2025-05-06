@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phungula Printing Solutions</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Phungula Printing Solutions</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Our Services</h2>
+        <ol type="I">
+            <li>Catalogue Printing</li>
+            <li>Office and Store Branding</li>
+            <li>Vehicle Branding</li>
+            <li>Tutoring Services</li>
+            <li>Photography and Camera Services</li>
+            <li>Business Consulting</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Image from Pexels</h2>
+        <img src="https://images.pexels.com/photos/1704127/pexels-photo-1704127.jpeg" alt="Pexels Image" width="600">
+    </section>
+
+    <!-- Audio and Video Section -->
+    <section>
+        <h2>Multimedia Section</h2>
+        <!-- Audio -->
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <br><br>
+        <!-- Video -->
+        <video width="600" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Siyabonga Phungula</td>
+                    <td>D109</td>
+                    <td>0606168890</td>
+                    <td>siyabonga3phungula@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Landiwe Phungula</td>
+                    <td>D19</td>
+                    <td>0834320016</td>
+                    <td>Landiwephungula55@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Zesuliwe Phungula</td>
+                    <td>Biva Road</td>
+                    <td>0718298873</td>
+                    <td>Zesuliwephungula@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Register with Phungula Printing Solutions</h2>
+        <form action="#" method="POST">
+            <!-- Name Field -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required pattern="[A-Za-z\s]+">
+            <br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password Field -->
+            <label for="password">Create Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a secure password" required minlength="6">
+            <br><br>
+
+            <!-- Date Field -->
+            <label for="date">Date of Registration:</label>
+            <input type="date" id="date" name="date" required>
+            <br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select a country</option>
+                <option value="south-africa">South Africa</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="india">India</option>
+                <option value="australia">Australia</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <label>Preferred Contact Method:</label>
+            <input type="radio" id="email-contact" name="contact_method" value="email" required>
+            <label for="email-contact">Email</label>
+            <input type="radio" id="phone-contact" name="contact_method" value="phone">
+            <label for="phone-contact">Phone</label>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label>Areas of Interest:</label>
+            <input type="checkbox" id="branding" name="interests" value="branding">
+            <label for="branding">Branding</label>
+            <input type="checkbox" id="printing" name="interests" value="printing">
+            <label for="printing">Printing</label>
+            <input type="checkbox" id="consulting" name="interests" value="consulting">
+            <label for="consulting">Business Consulting</label>
+            <input type="checkbox" id="alignment" name="interests" value="alignment">
+            <label for="alignment">Aligning Operations</label>
+            <br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Phungula Printing Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
